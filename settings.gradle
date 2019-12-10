@@ -1,0 +1,2 @@
+include ':NimAVChat', ':avchatkit'
+rootProject.name='AVChatDemo'

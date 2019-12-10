@@ -1,0 +1,67 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.netease.nim.avchatkit"
+4    android:versionCode="75"
+5    android:versionName="7.0.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:4:5-79
+11-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:5:5-76
+12-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:5:22-73
+13
+14    <application>
+14-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:6:5-32:19
+15        <activity
+15-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:7:9-11:63
+16            android:name="com.netease.nim.avchatkit.activity.AVChatActivity"
+16-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:8:13-77
+17            android:launchMode="singleInstance"
+17-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:9:13-48
+18            android:screenOrientation="portrait"
+18-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:10:13-49
+19            android:windowSoftInputMode="stateAlwaysHidden" />
+19-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:11:13-60
+20
+21        <!-- 音视频 -->
+22        <activity
+22-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:14:9-18:63
+23            android:name="com.netease.nim.avchatkit.teamavchat.activity.TeamAVChatActivity"
+23-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:15:13-67
+24            android:launchMode="singleInstance"
+24-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:16:13-48
+25            android:screenOrientation="portrait"
+25-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:17:13-49
+26            android:windowSoftInputMode="stateAlwaysHidden" />
+26-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:18:13-60
+27
+28        <!-- NRTC Settings -->
+29        <activity
+29-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:21:9-23:52
+30            android:name="com.netease.nim.avchatkit.activity.AVChatSettingsActivity"
+30-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:22:13-85
+31            android:screenOrientation="portrait" />
+31-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:23:13-49
+32
+33        <!-- 申明本地电话状态（通话状态）的广播接收器，第三方APP集成时音视频模块时，如果需要在App中处理网络通话与本地电话的交互请加上此接收器 -->
+34        <!-- 在Demo的示例代码中是在Application进行了网络通话与本地电话的互斥处理 -->
+35        <receiver android:name="com.netease.nim.avchatkit.receiver.IncomingCallReceiver" >
+35-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:27:9-31:20
+35-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:27:19-89
+36            <intent-filter>
+36-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:28:13-30:29
+37                <action android:name="android.intent.action.PHONE_STATE" />
+37-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:29:17-76
+37-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\src\main\AndroidManifest.xml:29:25-73
+38            </intent-filter>
+39        </receiver>
+40    </application>
+41
+42</manifest>

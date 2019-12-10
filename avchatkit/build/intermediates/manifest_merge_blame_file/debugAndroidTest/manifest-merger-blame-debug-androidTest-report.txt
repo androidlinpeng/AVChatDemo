@@ -1,0 +1,81 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.netease.nim.avchatkit.test" >
+4
+5    <uses-sdk
+5-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8446265747596249337.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8446265747596249337.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8446265747596249337.xml:5:42-71
+8
+9    <instrumentation
+9-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8446265747596249337.xml:11:5-15:80
+10        android:name="android.test.InstrumentationTestRunner"
+10-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8446265747596249337.xml:11:22-75
+11        android:functionalTest="false"
+11-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8446265747596249337.xml:14:22-52
+12        android:handleProfiling="false"
+12-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8446265747596249337.xml:13:22-53
+13        android:label="Tests for com.netease.nim.avchatkit.test"
+13-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8446265747596249337.xml:15:22-78
+14        android:targetPackage="com.netease.nim.avchatkit.test" />
+14-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8446265747596249337.xml:12:22-76
+15
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+16-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-76
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-76
+17-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-73
+18
+19    <application
+19-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8446265747596249337.xml:7:5-9:19
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.0.0] D:\Android-Studio_Cache\.gradle\caches\transforms-2\files-2.1\ec609e8cee787e2dff3592c66b08a66a\core-1.0.0\AndroidManifest.xml:22:18-86
+21        android:debuggable="true" >
+21-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8446265747596249337.xml:7:18-43
+22        <uses-library android:name="android.test.runner" />
+22-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8446265747596249337.xml:8:9-60
+22-->E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8446265747596249337.xml:8:23-57
+23
+24        <activity
+24-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-19:63
+25            android:name="com.netease.nim.avchatkit.activity.AVChatActivity"
+25-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-77
+26            android:launchMode="singleInstance"
+26-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-48
+27            android:screenOrientation="portrait"
+27-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-49
+28            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- 音视频 -->
+28-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-60
+29        <activity
+29-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-26:63
+30            android:name="com.netease.nim.avchatkit.teamavchat.activity.TeamAVChatActivity"
+30-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-92
+31            android:launchMode="singleInstance"
+31-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-48
+32            android:screenOrientation="portrait"
+32-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-49
+33            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- NRTC Settings -->
+33-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-60
+34        <activity
+34-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-31:52
+35            android:name="com.netease.nim.avchatkit.activity.AVChatSettingsActivity"
+35-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-85
+36            android:screenOrientation="portrait" /> <!-- 申明本地电话状态（通话状态）的广播接收器，第三方APP集成时音视频模块时，如果需要在App中处理网络通话与本地电话的交互请加上此接收器 -->
+36-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-49
+37        <!-- 在Demo的示例代码中是在Application进行了网络通话与本地电话的互斥处理 -->
+38        <receiver android:name="com.netease.nim.avchatkit.receiver.IncomingCallReceiver" >
+38-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-39:20
+38-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:19-89
+39            <intent-filter>
+39-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-38:29
+40                <action android:name="android.intent.action.PHONE_STATE" />
+40-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:17-76
+40-->[__tested_artifact__::avchatkit] E:\queke\nimAVChatCall\AVChatDemo\avchatkit\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:25-73
+41            </intent-filter>
+42        </receiver>
+43    </application>
+44
+45</manifest>
